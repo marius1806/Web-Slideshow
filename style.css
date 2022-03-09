@@ -1,0 +1,80 @@
+body {
+    width: auto;
+    height: auto;
+    background: linear-gradient(to right, blue, purple);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(149, 75, 219);
+    font-size: 55px;
+    text-align: center;
+}
+
+#left {
+    rotate: 180deg;
+}
+
+button {
+    width: 95px;
+    height: 55px;
+    background-color: blueviolet;
+    border: rgb(4, 62, 100) double 1px;
+    border-radius: 15%;
+    opacity: 85%;
+}
+
+button:hover {
+    border-style: double;
+    border-color: rgb(150, 27, 133);
+    cursor: pointer;
+}
+
+#left, #right {
+    width: 50px;
+    height: 30px;
+}
+
+#bullets, #arrows {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+span {
+    height: 15px;
+    width: 15px;
+    border: solid rgb(0, 0, 80) 5px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-right: 7px;
+    background-color: transparent;
+}
+
+#startPoint {
+    background-color: rgba(32, 1, 58, 0.63);
+}
+
+span:hover {
+    border-color: purple;
+    background-color: rgba(44, 1, 80, 0.63);
+}
+
+.slider img {
+    position: absolute;
+    width: 750px;
+    height: 550px;
+    border-radius: 5%;
+    display: none;
+    border: double rgb(143, 93, 190) 5px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+#on {
+    display: block;
+}

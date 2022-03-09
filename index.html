@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Slide Show</title>
+        <link rel='stylesheet' href = 'style.css'>
+        <script defer src = 'app.js'></script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1> Slide Show </h1>
+        </header>
+
+        <div id = 'arrows'>
+            <button onclick = 'previousSlide()'><img src = './images/white-arrow-image-png-14.png' id = 'left'></button>
+            <button onclick = 'nextSlide()'><img src = './images/white-arrow-image-png-14.png' id = 'right'></button>
+         </div>
+
+        <div id = 'bullets'>
+            <span  onclick = 'showSlide(1)'></span>
+            <span onclick = 'showSlide(2)'></span>
+            <span onclick = 'showSlide(3)'></span>
+            <span onclick = 'showSlide(4)'></span>
+            <span onclick = 'showSlide(5)'></span>
+        </div>
+
+        <div class = 'slider'>
+            <img src = 'images/04-nature_721703848.jpg' class = 'slide'>
+            <img src = 'images/depositphotos_29460297-stock-photo-bird-cage.jpg' class = 'slide'>
+            <img src = 'images/milky-way-2695569__480.jpg' class = 'slide'>
+            <img src = 'images/sunset-1373171__340.webp' class = 'slide'>
+            <img src = 'images/tree-736885__480.webp' class = 'slide'>
+        </div>
+    
+    </body>
+
+</html>
